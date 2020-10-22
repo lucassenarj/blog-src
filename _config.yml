@@ -6,8 +6,10 @@ plugins: [jekyll-paginate-v2]
 
 pagination:
   enabled: true
-  per_page: 3
+  per_page: 5
   permalink: "/page/:num/"
+  sort_field: "date"
+  sort_reverse: true
 
 comments: true
 
@@ -18,36 +20,34 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: end2end
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/end2end"
+title: Lucas Sena
+description: "My personal blog about something I like."
+keywords: "Blog, Front-end Developer, Angular, React, Javascript, Jekyll"
+url: https://lucassenarj.github.io
+baseurl: ""
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/end2end
-disqus_shortname: "nandothemes"
-disqus_site_shortname: "nandothemes"
+google_analytics: UA-105630227-1
+repo: http://github.com/lucassenarj/lucassenarj.github.io
+disqus_shortname: "lucassenarj"
+disqus_site_shortname: "lucassenarj"
 
 # Author settings
 author:
-  name: Fernando Moreira
-  job: Frontend Engineer
-  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name: Lucas Sena
+  job: Frontend Developer
+  bio: "I have been working as Full-Stack Developer for more than 8 years, but since a few months ago I decided to dedicate all my studies for Front-end techonologies, as frameworks like ReactJs and AngularJs, also diving in the mobile world with hybrid Javascript technologies like React-Native and Ionic."
   thumb: /images/author.jpg
-  email: nandomoreira.me@gmail.com
-  url: https://nandomoreira.me/
-  github: https://github.com/nandomoreirame
-  twitter: https://twitter.com/umdevux
-  facebook: https://facebook.com/umdevux
-  linkedin: https://linkedin.com/in/nandomoreirame
+  email: lucassena.rj@gmail.com
+  url: https://lucassenarj.me/
+  github: https://github.com/lucassenarj
+  linkedin: https://linkedin.com/in/lucassenarj
+  facebook: /
+  twitter: /
 
 # navbar pages
 navbar:
   - slug: about
     title: About
-  - slug: icons
-    title: Icons
   - slug: blog
     title: Blog
 
